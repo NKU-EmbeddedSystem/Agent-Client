@@ -5,8 +5,10 @@ from smolagents import AgentLogger, Text, Group
 
 logger = AgentLogger()
 
+task_description = input("Please enter the task description: ")
+
 payload = {
-    "task": "I need to synthesize a sample of safinamide. Please tell me how to synthesize it. Then tell me how much will it cost to buy all the reactants I need, if purchasable.",
+    "task": "",
     "model": "gpt4"
 }
 
