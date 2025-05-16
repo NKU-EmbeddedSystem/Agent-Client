@@ -8,7 +8,7 @@ logger = AgentLogger()
 task_description = input("Please enter the task description: ")
 
 payload = {
-    "task": "",
+    "task": task_description,
     "model": "gpt4"
 }
 
